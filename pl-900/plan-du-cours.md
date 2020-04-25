@@ -1,8 +1,9 @@
-Fondamentaux Power Platform
-Niveau du cours: 100 - Introduction et découverte des fonctionnalités
-préparation à l'examen: PL-900 de Microsoft
+#Fondamentaux Power Platform
 
-Plan du cours:
+- Niveau du cours: 100 - Introduction et découverte des fonctionnalités
+- Préparation à l'examen: PL-900 de Microsoft
+
+##Plan du cours:
 1. Introduction
 2. La "Power Plaform"
 3. Les environnements
@@ -14,5 +15,5 @@ Plan du cours:
 9. Conclusion
 
 
-Prérequis:
+##Prérequis:
 - Aucun prérequis
