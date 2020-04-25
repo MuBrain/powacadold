@@ -1,4 +1,4 @@
-#theme: jekyll-theme-midnight
+theme: jekyll-theme-midnight
 
 # --- Basic options --- #
 
@@ -199,15 +199,15 @@ defaults:
       show-avatar: true
 
 # Exclude these files from production site
-exclude:
-  - CHANGELOG.md
-  - CNAME
-  - Dockerfile
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
+# exclude:
+#   - CHANGELOG.md
+#   - CNAME
+#   - Dockerfile
+#   - Gemfile
+#   - Gemfile.lock
+#   - LICENSE
 #   - README.md
-  - Vagrantfile
+#   - Vagrantfile
 
 # prose.io config
 prose:
