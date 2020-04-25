@@ -3,22 +3,21 @@
 # --- Basic options --- #
 
 # Name of website
-title: My website
+title: PowAcad - Parce qu'apprendre est un plaisir
 
 # Short description of your site
-description: A virtual proof that I'm awesome
+description: Dans une démarche d'Intelligence Collective, vous trouverez ici des supports de cours en Francais totalement libre d'être utilisé mais également libre d'être modifier par la communauté.
 
 # Your name to show in the footer
-author: Some Person
+authors: Nicolas Georgeault - MuBrain
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-  Author's home: "http://deanattali.com"
+  A propos: "apropos"
+  Sponsors: "sponsors"
+  Cours:
+    - PL-900 Fondamentaux Power Platform: "/PL-900/plan-de-cours
 
 # --- Local development options ---
 
@@ -51,10 +50,10 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+  email: "info@powacad.com"
+#  facebook: deanattali
+#  github: daattali
+  twitter: powacad
   rss: true
 #  reddit: yourname
 #  linkedin: daattali
@@ -79,7 +78,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "powacad.com"
 
 # Create a "tags" index page and make tags on each post clickable
 link-tags: true
@@ -136,24 +135,24 @@ footer-link-col: "#404040"
 #fb_comment_id: ""
 
 # To use Staticman comments, fill in "repository", "branch", and "endpoint"
-staticman:
-  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
-  branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
-  endpoint   : # URL of your own deployment, with a trailing slash (will fallback to a public GitLab instance) eg. https://<your-api>/v3/entry/github/
-  reCaptcha:
+# staticman:
+#   repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
+#   branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
+#   endpoint   : # URL of your own deployment, with a trailing slash (will fallback to a public GitLab instance) eg. https://<your-api>/v3/entry/github/
+#   reCaptcha:
     # reCaptcha for Staticman (OPTIONAL, but recommended for spam protection)
     # If you use reCaptcha, you must also set these parameters in staticman.yml
-    siteKey  : # Use your own site key, you need to apply for one on Google
-    secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
+#     siteKey  : # Use your own site key, you need to apply for one on Google
+#     secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
 
 # To use Utterances comments: (1) fill in "repository" (make sure the repository is public), (2) Enable Issues in your repository,
 # (3) Install the Utterances app in your repository https://github.com/apps/utterances
 # See more details about the parameters below at https://utteranc.es/
-utterances:
-  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
-  issue-term: title   # Mapping between blog posts and GitHub issues
-  theme: github-light # Utterances theme
-  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
+# utterances:
+#   repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
+#   issue-term: title   # Mapping between blog posts and GitHub issues
+#   theme: github-light # Utterances theme
+#   label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
 
 
 # --- Misc --- #
@@ -172,7 +171,7 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "America/Montreal"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
@@ -207,7 +206,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
-  - README.md
+#   - README.md
   - Vagrantfile
 
 # prose.io config
