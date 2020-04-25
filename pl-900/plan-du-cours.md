@@ -2,8 +2,9 @@
 
 - Niveau du cours: 100 - Introduction et découverte des fonctionnalités
 - Préparation à l'examen: PL-900 de Microsoft
+- [Programme pédagogique](programme-pedagogique)
 
-## Plan du cours:
+## Plan du cours
 1. Introduction
 2. La "Power Plaform"
 3. Les environnements
